@@ -1,0 +1,44 @@
+---
+title: "About"
+author: "Yato"
+date: "April 7, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Motor Trend Car Road Tests (mtcars)
+
+This application is based on the **mtcars** dataset.
+
+The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).
+
+## Format
+A data frame with 32 observations on 11 variables.
+
+1. **mpg**:	 Miles/(US) gallon
+
+1. **cyl**:	 Number of cylinders
+
+1. **disp**:	 Displacement (cu.in.)
+
+1. **hp**:	 Gross horsepower
+
+1. **drat**:	 Rear axle ratio
+
+1. **wt**:	 Weight (1000 lbs)
+
+1. **qsec**:	 1/4 mile time
+
+1. **vs**:	 V/S
+
+1. **am**:	 Transmission (0 = automatic, 1 = manual)
+
+1. **gear**:	 Number of forward gears
+
+1. **carb**:	 Number of carburetors
+
+## Links
+You can find the code of shiny project on <https://github.com/lddyato/09-Shiny-Project/tree/master>.
